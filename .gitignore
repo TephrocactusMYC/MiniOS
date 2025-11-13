@@ -1,0 +1,23 @@
+target
+Cargo.lock
+build
+test
+backup
+data
+
+# Hidden folders
+.gdb_history
+.vscode
+
+# Log files
+*.log
+
+# Special files
+meta
+ap_trampoline
+*.tar.gz
+nginx-*
+output.S
+
+# Stupid macOS property file
+.DS_Store
